@@ -11,6 +11,22 @@ class ContactController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        if($this->_request->isPost()) {
+        	
+        	$name = $this->_request->getParam('name');
+        	$email = $this->_request->getParam('email');
+        	$subject = $this->_request->getParam('subject');
+        	$comment = $this->_request->getParam('comment');
+        	
+        	$mail = new Zend_Mail();
+		    // $mail->setBodyText('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
+		    $mail->setBodyHtml('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
+		    $mail->setFrom('ste.devma@gmail.com', 'Devma');
+		    $mail->addTo($email, $name);
+		    $mail->setSubject('Thank you.');
+		    $mail->send();
+        }
+    	
     }
 
 
