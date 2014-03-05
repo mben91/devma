@@ -11,7 +11,7 @@ class PresentationController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
-        
+        die('this is a presentations');
     }
 
 
