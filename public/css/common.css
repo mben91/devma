@@ -951,7 +951,7 @@ INPUT.error:focus {
   padding: 7px 25px;
   border: 1px solid #dddddd;
   border-bottom-color: #c4c4c4;
-  font-size: 11px;
+  font-size: 26px;
   font-family: "Signika Negative", sans-serif;
   line-height: 24px;
   text-align: center;
@@ -969,7 +969,7 @@ INPUT.error:focus {
 .button:HOVER {
   color: #333;
   text-decoration: none;
-  background: #bb544b;
+  background: #666;
 }
 .button:FOCUS {
   outline: thin dotted #333333;
@@ -1874,6 +1874,7 @@ A:HOVER {
   min-width: 200px;
   background: rgba(0, 0, 0, 0.7);
   text-align: left;
+  margin-top: 17px;
 }
 .navigation UL LI UL LI {
   position: relative;
@@ -1885,6 +1886,11 @@ A:HOVER {
   padding: 5px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.navigation UL LI UL LI:HOVER {
+  background: rgba(0, 219, 252, 0.6);
+}
+
 .navigation UL LI UL LI:HOVER > UL {
   display: block;
   opacity: 1;
@@ -1977,18 +1983,28 @@ A:HOVER {
   transition-duration: 0.2s;
   left: 0;
 }
-.slider__slides__list__item__description H2 {
-  margin-bottom: 0;
-  width: 60%;
-  font-size: 35px;
-  font-weight: bold;
-  line-height: 45px;
-  color: #fff;
-}
-.slider__slides__list__item__description H2 SPAN {
-  padding: 40px 60px;
+.slider__slides__list__item__description {
+  padding: 20px 40px;
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+}
+
+.img-first-slide img {
+	height: 405px;
+}
+
+.img-second-slide img {
+	height: 440px;
+}
+
+.img-fourth-slide img {
+	height: 404px;
+}
+
+.slider__slides__list__item__description H4 {
+  font-weight: Lighter;
+  margin-bottom: 0;
 }
 
 .slider__thumbs {
