@@ -2158,7 +2158,7 @@ A:HOVER {
 .services__item {
   padding: 40px 0;
   margin-bottom: 30px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
