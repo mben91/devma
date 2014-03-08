@@ -21,18 +21,19 @@ class ContactController extends Zend_Controller_Action
         	
         	$mail = new Zend_Mail();
 		    // $mail->setBodyText('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
-// 		    $mail->setBodyHtml('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
-// 		    $mail->setFrom('ste.devma@gmail.com', 'Devma');
-// 		    $mail->addTo($email, $name);
-// 		    $mail->setSubject('Thank you.');
-// 		    $mail->send();
+		    $mail->setBodyHtml('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
+		    $mail->setFrom('ste.devma@gmail.com', 'Devma');
+		    $mail->addTo($email, $name);
+		    $mail->setSubject('Thank you.');
+		    $mail->send();
 		    
 		    // $mail->setBodyText('Thank you for submitting your message. we will contact you as soon as possible. Have a nice day!');
-		    $mail->setBodyHtml($comment);
-		    $mail->setFrom($email, $name);
-		    $mail->addTo('simo@localhost.com', 'simo');
-		    $mail->setSubject($subject);
-		    $mail->send();
+		    $mail2 = new Zend_Mail();
+		    $mail2->setBodyHtml($comment);
+		    $mail2->setFrom($email, $name);
+		    $mail2->addTo('contact@devma.net', 'Devma');
+		    $mail2->setSubject($subject);
+		    $mail2->send();
         }
     	
     }
