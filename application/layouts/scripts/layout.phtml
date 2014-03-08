@@ -34,7 +34,7 @@
         <div class="g-row">
             <div class="g-column-12 header__wrapper">
                 <div class="logo">
-                    <h1><a href="index-2.html" class="logo__image"><img src="images/src/logo.png" alt="" width="208px" /></a></h1>
+                    <h1><a href="/devma/public/" class="logo__image"><img src="images/src/logo.png" alt="" width="208px" /></a></h1>
                 </div>
                 <nav role="navigation" class="navigation">
                     <div class="menu">
@@ -46,7 +46,7 @@
                                 <a href="/devma/public/presentation">Présentation</a>
                             </li>
                             <li class="menu-item menu-item_has_sub-nav ">
-                                <a href="">Services</a>
+                                <a href="#">Services</a>
                                 <ul>
                                 	<li><a href="#">Communication et Publicité</a></li>
                                 	<li><a href="#">Développement Web</a></li>
@@ -69,7 +69,42 @@
 <!-- header -->
 <?= $this->layout()->content ?>
 
-    <footer class="footer " role="contentinfo">
+<div class="page__item twitter scrolled">
+    <div class="l-container">
+        <div class="g-row scrolled__item">
+            <div class="g-column-8 g-offset-2 twitter__content">
+                <a href="index.html#">
+                    <span class="icon_get_twitter-alt">Twitter</span>
+                </a>
+                <div class="twitter__container">
+                    <h3>@rpauldesign cheers - hopefully it gets across we like to have fun when we work. </h3>
+                </div>
+
+            </div>
+            <div class="g-column-8 g-offset-2 twitter__follow">
+                <p>Vous devriez nous suivre sur <a href="https://twitter.com/SteDevma">Twitter</a> pour nos dernières mises à jour.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- twitter -->
+<div class="page__item newsletter scrolled">
+    <div class="l-container">
+        <div class="g-row">
+            <div class="g-column-8 g-offset-2 scrolled__item">
+                <h3>Entrez votre adresse email ci-dessous pour recevoir les dernières mises à jour.</h3>
+                <form method="post" action="#">
+                    <input class="input" type="email" placeholder="Entrez votre email" name="email">
+                    <button type="submit" class="button">
+                        <i class="icon icon_get_arrow-size-big">Souscrire</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- newsletter --></div>
+<footer class="footer " role="contentinfo">
     <div class="l-container">
         <div class="g-row">
             <div class="g-column-12 footer__copyright">

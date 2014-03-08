@@ -61,7 +61,7 @@
         // Creating tweet container
         // Twitter settings
         $('.twitter__container').tweet({
-            username: 'envato',
+            username: 'SteDevma',
             join_text: 'auto',
             count: 1,
             loading_text: "Loading tweets...",
