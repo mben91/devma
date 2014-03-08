@@ -1984,7 +1984,7 @@ A:HOVER {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  left: 0;
+  right: 0;
 }
 .slider__slides__list__item__description {
   padding: 20px 40px;
