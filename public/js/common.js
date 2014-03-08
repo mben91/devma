@@ -147,5 +147,9 @@
         }
 
         parallaxScroll();
+        
+    	$('blockquote').quovolver();
+    	
+        
     });
 })(window.jQuery);
