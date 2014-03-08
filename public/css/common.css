@@ -2028,7 +2028,7 @@ A:HOVER {
   overflow: hidden;
   text-indent: -999px;
   background-color: #fff;
-  border: 3px solid #2a7f8e;
+  border: 3px solid #00DBFC;
   border-radius: 100px 100px 100px 100px;
   cursor: pointer;
   vertical-align: top;
@@ -2037,13 +2037,13 @@ A:HOVER {
   box-sizing: border-box;
 }
 .slider__thumbs__list__item:HOVER {
-  background-color: #2a7f8e;
-  border: 3px solid #2a7f8e;
+  background-color: #00DBFC;
+  border: 3px solid #00DBFC;
 }
 
 .slider__thumbs__list__item.active {
-  background: #2a7f8e;
-  border: 3px solid #2a7f8e;
+  background: #00DBFC;
+  border: 3px solid #00DBFC;
 }
 
 /*-----------------------------------------------------------------------------------*/
