@@ -100,6 +100,10 @@ IMG {
   box-sizing: border-box;
 }
 
+.devider {
+	border-top: 5px solid #F3F3F3;
+}
+
 .l-container {
   width: 959px;
 }
@@ -1819,8 +1823,9 @@ A:HOVER {
 .logo {
   position: relative;
   float: left;
-  padding: 9.5px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.7);
+  top: -1px;
 }
 
 .logo__image {
@@ -3389,7 +3394,7 @@ A:HOVER {
   .infographic,
   .testimonials,
   .newsletter {
-    display: none;
+    /* display: none; */
   }
 
   .scrolled__item {
