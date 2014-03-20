@@ -150,6 +150,41 @@
         
     	$('blockquote').quovolver();
     	
-        
+        /**
+         * Services scripts
+         */ 
+    	
+    	// Readmore
+    	$('.services-row .content').readmore();
+    	
+    	// SlideTo Sections
+    	$('.services-toggle div a').click(function() {
+    		var self = $(this);
+    		var offset = $(self.attr('href')).offset();
+    		$("html, body").animate({scrollTop : (offset.top-120)}, 1000);
+    		
+    		return false;
+    	});
+    	
+    	var animated = false;
+    	$(window).scroll(function() {
+    		// var offsetLastOne = $('.services-row div:last-child').offset();
+    		var scrollTopCurrent = $(this).scrollTop();
+    		var docHeight = $(document).innerHeight() * 3 / 5;
+    		
+    		console.log(docHeight);
+    		console.log(scrollTopCurrent);
+    		console.log('-----------------------------');
+    		
+    		if(scrollTopCurrent > docHeight && animated != true) {
+    			$('.services-toggle').animate({ opacity : 0 }, 500);
+    			animated = true;
+    		} else if(scrollTopCurrent < docHeight  && animated == true) {
+    			$('.services-toggle').animate({ opacity : 1 }, 500);
+    			animated = false;
+    		}
+    	});
+    	
+    	
     });
 })(window.jQuery);

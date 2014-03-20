@@ -1344,6 +1344,27 @@ INPUT.error:focus {
 }
 
 /**
+ * Services
+ */
+
+.services-toggle {
+	position: fixed;
+	top: 120px;
+	right: 120px;
+	width: 100px;
+	height: 450px;
+	z-index: 2;
+}
+
+.services-toggle div {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50px;
+	margin: 10px 0px;
+}
+
+/**
  * ThemePile Progress Bars
  */
 @-webkit-keyframes progress-bar-stripes {
