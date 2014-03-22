@@ -1362,6 +1362,16 @@ INPUT.error:focus {
 	overflow: hidden;
 	border-radius: 50px;
 	margin: 10px 0px;
+	
+	background: #00DBFC;
+}
+
+.services-toggle div a {
+	width: 100px;
+	height: 100px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 /**
