@@ -165,6 +165,7 @@
 		$('.menu .menu-item_has_sub-nav a').click(function(event) {
 			event.preventDefault();
 		    $('html,body').animate({scrollTop:$(this.hash).offset().top-120}, 500);
+		    document.location.hash = $(this)attr('href').split("#")[1];
 		});
 		
     	$('.services-toggle div a').click(function() {
