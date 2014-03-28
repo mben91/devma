@@ -16,7 +16,7 @@
         				<button class="button readmore-btn" style="font-size: 14px" >Lire plus...</button>\
         		   </div>',
         lessLink: '<div class="g-column-6 g-offset-5 g-push-to-bottom readmore-btn">\
-						<button class="button readmore-btn" style="font-size: 14px" >Fermer</button>\
+						<button class="button readmore-btn" style="font-size: 14px" >Réduire</button>\
  		   		   </div>',
         embedCSS: true,
         //sectionCSS: 'display: block; width: 100%;',
