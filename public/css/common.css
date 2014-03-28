@@ -152,6 +152,10 @@ IMG {
   width: 159px;
 }
 
+.right-space-2 {
+  margin-right: 70px;
+}
+
 .g-column-1 {
   width: 79px;
 }
@@ -314,6 +318,10 @@ IMG {
 
   .g-column-2 {
     width: 201px;
+  }
+  
+  .right-space-2 {
+  	margin-right: 100px;
   }
 
   .g-column-1 {
@@ -1349,29 +1357,30 @@ INPUT.error:focus {
 
 .services-toggle {
 	position: fixed;
-	top: 120px;
-	right: 106px;
-	width: 100px;
-	height: 450px;
+	top: 100px;
+	right: 90px;
+	width: 86px;
+	height: 392px;
 	z-index: 2;
 }
 
 .services-toggle div {
-	width: 100px;
-	height: 100px;
+	width: 86px;
+	height: 86px;
 	overflow: hidden;
-	border-radius: 50px;
+	border-radius: 43px;
 	margin: 10px 0px;
 	
 	background: #00DBFC;
 }
 
 .services-toggle div a {
-	width: 100px;
-	height: 100px;
+	width: 64px;
+	height: 64px;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+	padding: 12px;
 }
 
 /**
@@ -3239,7 +3248,15 @@ A:HOVER {
   .g-column-2 {
     width: 201px;
   }
+  
+  .right-space-2 {
+  	margin: 0 40px 0 10px;
+  }
 
+  .left-space-2 {
+  	margin: 0 10px 0 40px;
+  }
+	
   .g-column-1 {
     width: 100px;
   }
@@ -3362,6 +3379,10 @@ A:HOVER {
 
   .g-column-2 {
     width: 123px;
+  }
+  
+  .right-space-2 {
+  	margin-right: 30px;
   }
 
   .g-column-1 {
