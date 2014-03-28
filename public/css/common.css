@@ -514,6 +514,10 @@ IMG {
     width: 100%;
     margin-left: 0;
   }
+  
+  .posts__item__link {
+  	display: block !important;
+  }
 }
 /**
  * Typography, vertical rhythm, content classes etc.)
@@ -2588,6 +2592,10 @@ A:HOVER {
 
 .posts__item__head__title {
   margin-bottom: 10px;
+}
+
+.posts__item__link {
+	display: none;
 }
 
 /*-----------------------------------------------------------------------------------*/
