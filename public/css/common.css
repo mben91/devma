@@ -3621,7 +3621,7 @@ A:HOVER {
 	padding: 0px!important;
 	display: inline!important;
 	width: auto!important;
-	background: #f0f0f0;
+	/* background: #f0f0f0; */
 	border-radius: 50%;				
 }	
 
@@ -3639,7 +3639,7 @@ A:HOVER {
 	width: 40px!important;
 	height: 40px!important;
 	text-indent: -9999px!important;
-	border-radius: 20px;						
+	border-radius: 20px;				
 }
 
 .plugin-social-icons li a:hover {
@@ -3647,7 +3647,7 @@ A:HOVER {
 }
 
 .plugin-social-icons li a {
-	background-color:transparent;
+	background-color: #f0f0f0 !important;
 }
 
 .plugin-social-icons li.twitter a {
@@ -3655,7 +3655,7 @@ A:HOVER {
 }
 
 .plugin-social-icons li.twitter a:hover {
-	background-color: #48c4d2;
+	background-color: #48c4d2 !important;
 }
 
 .plugin-social-icons li.linkedin a {
@@ -3663,7 +3663,7 @@ A:HOVER {
 }
 
 .plugin-social-icons li.linkedin a:hover {
-	background-color: #71b2d0;
+	background-color: #71b2d0 !important;
 }
 
 .plugin-social-icons li.googleplus a {
@@ -3671,7 +3671,7 @@ A:HOVER {
 }
 
 .plugin-social-icons li.googleplus a:hover {
-	background-color: #d94a39;
+	background-color: #d94a39 !important;
 }
 
 .plugin-social-icons li.facebook a {
@@ -3679,7 +3679,7 @@ A:HOVER {
 }
 
 .plugin-social-icons li.facebook a:hover {
-	background-color: #3b5998;
+	background-color: #3b5998 !important;
 }
 
 .bg-text {
