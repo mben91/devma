@@ -29,7 +29,7 @@ var animated = false;
 $(window).scroll(function() {
 	// var offsetLastOne = $('.services-row div:last-child').offset();
 	var scrollTopCurrent = $(this).scrollTop();
-	var docHeight = $(document).innerHeight() * 3 / 5;
+	var docHeight = $(document).innerHeight() * 3 / 4;
 	
 	if(scrollTopCurrent > docHeight && animated != true) {
 		$('.services-toggle').animate({ opacity : 0 }, 500);
