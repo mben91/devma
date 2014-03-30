@@ -1361,21 +1361,26 @@ INPUT.error:focus {
 
 .services-toggle {
 	position: fixed;
-	top: 100px;
-	right: 90px;
+	top: 25%;
+	right: 120px;
 	width: 86px;
 	height: 392px;
 	z-index: 2;
 }
 
 .services-toggle div {
-	width: 86px;
-	height: 86px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
-	border-radius: 43px;
+	border-radius: 50%;
 	margin: 10px 0px;
 	
 	background: #00DBFC;
+}
+
+.services-toggle div:hover {
+
+	background: #BBB;
 }
 
 .services-toggle div a {
@@ -1384,7 +1389,7 @@ INPUT.error:focus {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
-	padding: 12px;
+	padding: 20px;
 }
 
 /**
@@ -2575,7 +2580,7 @@ A:HOVER {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
   
-  min-height: 260px;
+  min-height: 224px;
 }
 .posts__item__description TIME {
   font-size: 11px;
@@ -2914,6 +2919,10 @@ A:HOVER {
 .pagination {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.services-row .entry {
+  margin-top: -40px;
 }
 
 .entry P:FIRST-CHILD {
@@ -3662,3 +3671,13 @@ A:HOVER {
 .services-row .bg-text {
 	text-align: left;
 }
+
+.service-title {
+	margin-top: 20px;
+}
+
+.services-row .heading-title img{
+	border-radius: 0 0 0 150px;
+	border-bottom: 10px solid #00DBFC;
+}
+

@@ -10,12 +10,12 @@
   var readmore = 'readmore',
       defaults = {
         speed: 800,
-        maxHeight: 400,
+        maxHeight: $(window).height() * 0.58,
         heightMargin: 16,
-        moreLink: '<div class="g-column-6 g-offset-5 g-push-to-bottom readmore-btn">\
+        moreLink: '<div class="g-offset-8 g-push-to-bottom readmore-btn">\
         				<button class="button readmore-btn" style="font-size: 14px" >Lire plus...</button>\
         		   </div>',
-        lessLink: '<div class="g-column-6 g-offset-5 g-push-to-bottom readmore-btn">\
+        lessLink: '<div class="g-offset-8 g-push-to-bottom readmore-btn">\
 						<button class="button readmore-btn" style="font-size: 14px" >Réduire</button>\
  		   		   </div>',
         embedCSS: true,

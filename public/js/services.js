@@ -3,7 +3,7 @@
  */ 
 
 // Readmore
-$('.services-row .content').readmore();
+/*$('.services-row .readmoreContent').readmore();*/
 
 // SlideTo Sections
 var hash = document.location.hash;
