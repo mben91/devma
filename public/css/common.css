@@ -3703,3 +3703,52 @@ A:HOVER {
 	border-bottom: 10px solid #00DBFC;
 }
 
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  div.g-row.slider__row {
+    display: none;
+  }
+  
+  .navigation UL LI.current-menu-item > A {
+  	color: #00DBFC;
+  }
+  
+  .navigation .menu-item A:hover {
+  	color: #00DBFC;
+  }
+  
+   .navigation .menu-item ul li A:hover {
+  	color: white;
+  }
+
+  .newsletter H3 {
+    margin: 0px 0 10px;
+  }
+  
+  .newsletter FORM {
+    width: 100%;
+  } 
+  
+  .newsletter INPUT {
+  	font-size: 19px;
+  }
+  
+  .newsletter BUTTON {
+    top: 12px;
+  } 
+
+  div.services-toggle {
+  	display: none;
+  } 
+  
+  .services-row .heading-title img {
+  	display: none;
+  }
+  
+  .services-row .heading-title h2 {
+  	margin-bottom: 50px;
+  }
+  
+  .form_in_contact {
+    width: 100%;
+  }
+}
