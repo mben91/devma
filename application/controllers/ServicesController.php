@@ -12,7 +12,11 @@ class ServicesController extends Zend_Controller_Action
     {
         // action body
         $this->view->headScript()->appendFile('js/other/readmore.js');
+        $this->view->headScript()->appendFile('js/other/tooltip.js');
         $this->view->headScript()->appendFile('js/services.js');
+        
+        $this->view->headLink()->appendStylesheet('css/tooltip.css');
+       
     }
 
 }

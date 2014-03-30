@@ -10,7 +10,7 @@
   var readmore = 'readmore',
       defaults = {
         speed: 800,
-        maxHeight: 400,
+        maxHeight: 200,
         heightMargin: 16,
         moreLink: '<div class="g-column-6 g-offset-5 g-push-to-bottom readmore-btn">\
         				<button class="button readmore-btn" style="font-size: 14px" >Lire plus...</button>\

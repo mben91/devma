@@ -40,4 +40,9 @@ $(window).scroll(function() {
 	}
 });
 
+// toggle services tooltip
+
+$('.services-toggle a').tooltip();
+
+
 // history.pushState({}, '', 'services/'+document.location.hash.replace('#', ''));
