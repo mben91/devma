@@ -1368,9 +1368,10 @@ INPUT.error:focus {
 	z-index: 2;
 }
 
-.services-toggle div {
-	width: 100px;
-	height: 100px;
+
+.services-toggle > div {
+	width: 86px;
+	height: 86px;
 	overflow: hidden;
 	border-radius: 50%;
 	margin: 10px 0px;
@@ -1378,18 +1379,37 @@ INPUT.error:focus {
 	background: #00DBFC;
 }
 
-.services-toggle div:hover {
 
+.services-toggle > div:hover {
 	background: #BBB;
 }
 
-.services-toggle div a {
+.services-toggle > div a {
 	width: 64px;
 	height: 64px;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 	padding: 20px;
+}
+
+.services-toggle .tooltip.left {
+	margin-right: 100px !important;
+	margin-top: 0px !important;
+	width: 180px !important;
+	opacity: 1 !important;
+}
+
+.services-toggle .tooltip.left .tooltip-inner {
+	background: white !important;
+	color: #00CCCC !important;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.services-toggle .tooltip.left .tooltip-arrow {
+	top: 50% !important;
+	border-left-color: white !important;
 }
 
 /**
