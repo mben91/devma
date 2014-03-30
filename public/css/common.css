@@ -1370,8 +1370,8 @@ INPUT.error:focus {
 
 
 .services-toggle > div {
-	width: 86px;
-	height: 86px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
 	border-radius: 50%;
 	margin: 10px 0px;
